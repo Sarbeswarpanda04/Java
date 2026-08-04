@@ -1,10 +1,10 @@
 public class variables {
     public static void main(String[] args) {
         // Variable declaration and initialization
-        int age = 20;
-        double height = 5.9;
-        String name = "Sarbeswar Panda";
-        boolean isStudent = true;
+        int age = 20;  // 4 bytes
+        double height = 5.9;  // 8 bytes
+        String name = "Sarbeswar Panda"; // Reference type
+        boolean isStudent = true;  // 1 byte
 
         // Printing variable values
         System.out.println("Name: " + name);
